@@ -1,0 +1,19 @@
+{
+  "name": "mean-machine-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "morgan": "*"
+  },
+  "author": "Miguel Esparza MikeDaVinci",
+  "license": "MIT"
+}
