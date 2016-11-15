@@ -10,7 +10,7 @@ var User = require('./app/models/user');
 
 var port = process.env.PORT || 8080; // set the port for our app
 
-mongoose.connect('mongodb://mikedavinci:mikedavinci1@ds153657.mlab.com:53657/base-api');
+mongoose.connect('mongodb://mikedavinci:mikedavinci1@ds155097.mlab.com:55097/mean-machine-app');
 
 // APP CONFIGURATION ------------
 // use body parser so we can grab information from POST requests
